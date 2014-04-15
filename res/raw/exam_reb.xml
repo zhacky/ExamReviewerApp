@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+    <item>
+        <itemId>1</itemId>
+        <question>Community property is owned by:</question>
+        <choiceA>the municipality</choiceA>
+        <choiceB>the community</choiceB>
+        <choiceC>the heirs of the deceased owner</choiceC>
+        <choiceD>the husband and the wife</choiceD>
+        <answer>4</answer>
+        <points>10</points>
+        <difficulty>1</difficulty>
+    </item>    
+    <item>
+        <itemId>2</itemId>
+        <question>The principle of ownership which mandates property owners
+            to use their property in a manner that will promote not only
+            their interest but also the general welfare is known as:</question>
+        <choiceA>fee simple</choiceA>
+        <choiceB>Regalian doctrine</choiceB>
+        <choiceC>Stewardship concept</choiceC>
+        <choiceD>Urban reform</choiceD>
+        <answer>3</answer>
+        <points>20</points>
+        <difficulty>1</difficulty>
+    </item>    
+    <item>
+        <itemId>3</itemId>
+        <question>Under the rule on conflict of interest of MO39 s.1985 as amended, the
+            engagement of the services of a real estate appraiser must not be:</question>
+        <choiceA>subject of listing in a telephone directory</choiceA>
+        <choiceB>collaborated by other appraisers</choiceB>
+        <choiceC>contingent on pre-determined value</choiceC>
+        <choiceD>based on the experience of the appraiser</choiceD>
+        <answer>3</answer>
+        <points>30</points>
+        <difficulty>2</difficulty>
+    </item>    
+    <item>
+        <itemId>4</itemId>
+        <question>Application for the renewal of a real estate license must be 
+            accompanied with</question>
+        <choiceA>Cash bond for P5,000.00</choiceA>
+        <choiceB>Surety bond of P5,000.00</choiceB>
+        <choiceC>Certificate of Guarantee from recognized national real estate association.</choiceC>
+        <choiceD>Any of the above.</choiceD>
+        <answer>4</answer>
+        <points>40</points>
+        <difficulty>2</difficulty>
+    </item>    
+    <item>
+        <itemId>5</itemId>
+        <question>Under no circumstance may a real estate broker:</question>
+        <choiceA>receive commission from both seller or buyer</choiceA>
+        <choiceB>appoint a sub-agent</choiceB>
+        <choiceC>sell the principal's representative to a relative</choiceC>
+        <choiceD>misrepresent material facts</choiceD>
+        <answer>4</answer>
+        <points>50</points>
+        <difficulty>3</difficulty>
+    </item>    
+</questions>
