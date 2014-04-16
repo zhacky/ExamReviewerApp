@@ -28,6 +28,7 @@ private static final String LOGTAG = "QUIZAPP";
 	private static final String QUESTION_ANSWER = "answer";
 	private static final String QUESTION_POINTS = "points";
 	private static final String QUESTION_DIFFICULTY = "difficulty";
+	private static final String QUESTION_CATEGORY = "category";
 	
 	private Question currentQuestion  = null;
 	private String currentTag = null;
@@ -40,7 +41,7 @@ private static final String LOGTAG = "QUIZAPP";
 			factory.setNamespaceAware(true);
 			XmlPullParser xpp = factory.newPullParser();
 			
-			InputStream stream = context.getResources().openRawResource(R.raw.exam_reb);
+			InputStream stream = context.getResources().openRawResource(R.raw.exam_cs);
 			xpp.setInput(stream, null);
 
 			int eventType = xpp.getEventType();
@@ -99,6 +100,9 @@ private static final String LOGTAG = "QUIZAPP";
 			else if (currentTag.equals(QUESTION_DIFFICULTY)) {
 				int difficulty = Integer.parseInt(xmlText);
 				currentQuestion.setDifficulty(difficulty);
+			}
+			else if (currentTag.equals(QUESTION_CATEGORY)) {
+				currentQuestion.setCategory(xmlText);
 			}
 		}
 	}

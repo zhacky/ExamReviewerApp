@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.OrientationEventListener;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -26,6 +27,7 @@ public class QuizActivity extends Activity {
 	int points;
 	int difficulty;
 	int userscore;
+	int qchar_count;
 	List<Question> questions;
 
 	@Override
@@ -61,53 +63,75 @@ public class QuizActivity extends Activity {
 	}
 
 	private void clickFunction() {
-		if (UIHelper.getButtonText(this, R.id.btnConfirm).toString() == "Confirm") {
-			finalizeScore();
-		}
+
 		userAns = UIHelper.getSelected(this, R.id.rgChoices);
+		// if user didn't pick any choice
 		if (userAns == 0) {
 			Toast.makeText(this, "Please select one", Toast.LENGTH_SHORT)
 					.show();
 			return;
 		}
-		if (question_no >= total_count) {
-			displayUpdate();
+
+		// if user reaches the final question
+		if (question_no + 1 == total_count) {
 			UIHelper.setButtonText(this, R.id.btnConfirm, "Confirm");
-			return;
 		}
+		// if User got the correct answer
 		if (userAns == correctAns) {
 			current_points = points;
-			current_correct += 1;
+			current_correct = 1;
 
 		} else {
 			current_points = 0;
 			current_correct = 0;
 		}
+		// add the points
 		userscore += current_points;
 		total_correct += current_correct;
-		question_no += 1;
-		setQuestion(question_no);
+		// if questions reach the total
+		if (question_no >= total_count) {
+			finalizeScore();
+		} else {
+			question_no += 1;
+			setQuestion(question_no);
+		}
 	}
 
+	/**
+	 * Finalizes the score and passes values to the EndQuizActivity Values
+	 * passed: userscore, total_correct, fraction
+	 */
 	private void finalizeScore() {
-		Intent intent = new Intent(this,EndQuizActivity.class);
+		Intent intent = new Intent(this, EndQuizActivity.class);
 		intent.putExtra("Score", userscore);
 		intent.putExtra("Corrects", total_correct);
+		double fraction;
+		fraction = (double) total_correct / total_count;
+		Toast.makeText(
+				this,
+				"Fraction: " + fraction + "\nCorrect: " + total_correct
+						+ "\nCount: " + total_count, Toast.LENGTH_SHORT).show();
+		intent.putExtra("Fraction", fraction);
 		startActivity(intent);
 	}
 
+	/**
+	 * Sets the question and the choices based on the question number
+	 * 
+	 * @param question_number
+	 *            - the incremented question_no value
+	 */
 	private void setQuestion(long question_number) {
 		Log.i(LOGTAG, "Question No. " + question_number);
 		UIHelper.clearSelection(this, R.id.rgChoices);
 
 		if (question_number > total_count) {
-			UIHelper.setButtonText(this, R.id.btnConfirm, "Confirm");
-			// show results
-			//displayUpdate();
+
 		} else {
 
 			for (Question question : questions) {
 				if (question.getId() == question_number) {
+
 					UIHelper.displayText(this, R.id.tvQuestion,
 							question.getQuestion());
 					UIHelper.setRadioText(this, R.id.radio1,
@@ -126,7 +150,18 @@ public class QuizActivity extends Activity {
 		}
 
 	}
+	
+	/**     ON Change layout     **/
+	OrientationEventListener orientation_listener = new OrientationEventListener(this) {
+		
+		@Override
+		public void onOrientationChanged(int orientation) {
+			
+			
+		}
+	};
 
+	@SuppressWarnings("unused")
 	private void displayUpdate() {
 		String update = "Score: " + userscore + "\nCorrect: " + total_correct
 				+ "/" + total_count;

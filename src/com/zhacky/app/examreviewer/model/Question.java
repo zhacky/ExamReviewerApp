@@ -10,6 +10,7 @@ private String choiceD;
 private int answer;
 private int points;
 private int difficulty;
+private String category;
 
 public Question() {
 	this.question = "Nothing";
@@ -90,6 +91,14 @@ public int getDifficulty() {
 }
 public void setDifficulty(int difficulty) {
 	this.difficulty = difficulty;
+}
+
+public String getCategory() {
+	return category;
+}
+
+public void setCategory(String category) {
+	this.category = category;
 }
 
 }

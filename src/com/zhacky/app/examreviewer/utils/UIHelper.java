@@ -1,6 +1,5 @@
 package com.zhacky.app.examreviewer.utils;
 
-import com.zhacky.app.examreviewer.R;
 
 import android.app.Activity;
 import android.widget.Button;
@@ -9,6 +8,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import com.zhacky.app.examreviewer.R;
 
 public class UIHelper {
 
@@ -20,6 +21,19 @@ public class UIHelper {
 	 */
 	public static void displayText(Activity activity, int id, String text) {
 		TextView tv = (TextView) activity.findViewById(id);
+		
+		// -- resize Text View
+		
+		if (text.length()> 150 && text.length() <= 300){
+			tv.setTextSize(14);
+		} 
+		else if(text.length() > 300){
+			tv.setTextSize(12);
+		}
+		else{
+			tv.setTextSize(16);
+		}
+		
 		tv.setText(text);
 	}
 
@@ -74,6 +88,20 @@ public class UIHelper {
 	 */
 	public static void setRadioText(Activity activity, int id, String text) {
 		RadioButton rb = (RadioButton) activity.findViewById(id);
+		
+	// -- resize RadioButton Text
+		
+		if (text.length()> 150 && text.length() <= 300){
+			rb.setTextSize(14);
+		} 
+		else if(text.length() > 300){
+			rb.setTextSize(12);
+		}
+		else{
+			rb.setTextSize(16);
+		}
+	
+		
 		rb.setText(text);
 	}
 

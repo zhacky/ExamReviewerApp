@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+
+    <item>
+        <itemId>1</itemId>
+        <question>What do you call the introductory part of the Constitution?</question>
+        <choiceA>Preface</choiceA>
+        <choiceB>Amendments</choiceB>
+        <choiceC>Preamble</choiceC>
+        <choiceD>Bill of Rights</choiceD>
+        <answer>3</answer>
+        <points>10</points>
+        <difficulty>5</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>2</itemId>
+        <question>What form of government does the Philippines adopt?</question>
+        <choiceA>Republican</choiceA>
+        <choiceB>Democratic        </choiceB>
+        <choiceC>neither a nor b        </choiceC>
+        <choiceD>both a and b        </choiceD>
+        <answer>4</answer>
+        <points>10</points>
+        <difficulty>5</difficulty>
+        <category>Constitution        </category>
+    </item>
+     
+    <item>
+        <itemId>3</itemId>
+        <question>What is the power of the State to take private property for public use upon payment of a just compensation?        </question>
+        <choiceA>right of confiscation   </choiceA>
+        <choiceB>right of limiting resources        </choiceB>
+        <choiceC>right of sequestration        </choiceC>
+        <choiceD>right of eminent domain        </choiceD>
+        <answer>2</answer>
+        <points>20</points>
+        <difficulty>6</difficulty>
+        <category>Constitution        </category>
+    </item>
+    <item>
+        <itemId>4</itemId>
+        <question>Who among the following may issue a warrant of arrest or a search warrant?</question>
+        <choiceA>a senator</choiceA>
+        <choiceB>a judge</choiceB>
+        <choiceC>a congressman        </choiceC>
+        <choiceD>the President        </choiceD>
+        <answer>2</answer>
+        <points>20</points>
+        <difficulty>6</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>5</itemId>
+        <question>A foreigner may acquire Filipino citizenship through</question>
+        <choiceA>naturalization</choiceA>
+        <choiceB>extradition</choiceB>
+        <choiceC>rebirth</choiceC>
+        <choiceD>Visa application</choiceD>
+        <answer>1</answer>
+        <points>10</points>
+        <difficulty>5</difficulty>
+        <category>Constitution</category>
+    </item>
+   
+    <item>
+        <itemId>6</itemId>
+        <question>The right to vote is also known as ___</question>
+        <choiceA>suffrage</choiceA>
+        <choiceB>naturalization</choiceB>
+        <choiceC>democracy</choiceC>
+        <choiceD>plebiscite</choiceD>
+        <answer>1</answer>
+        <points>10</points>
+        <difficulty>5</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>7</itemId>
+        <question>How many Senators are there in the Senate?</question>
+        <choiceA>twenty-five</choiceA>
+        <choiceB>twenty-four</choiceB>
+        <choiceC>twelve</choiceC>
+        <choiceD>thirty</choiceD>
+        <answer>2</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>8</itemId>
+        <question>What is the minimum age requirement of a Senator?</question>
+        <choiceA>thirty</choiceA>
+        <choiceB>twenty-five</choiceB>
+        <choiceC>twenty</choiceC>
+        <choiceD>thirty-five</choiceD>
+        <answer>4</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+            <item>
+        <itemId>9</itemId>
+        <question>Which of the following bills do not originate from the House of Representative?</question>
+        <choiceA>Appropriation bills</choiceA>
+        <choiceB>Revenue or tariff bills</choiceB>
+        <choiceC>Amnesty</choiceC>
+        <choiceD>Private bills</choiceD>
+        <answer>3</answer>
+        <points>40</points>
+        <difficulty>9</difficulty>
+        <category>Constitution</category>
+    </item>
+
+    <item>
+        <itemId>10</itemId>
+        <question>The Members of the Lower House are</question>
+        <choiceA>elected by region and by party list</choiceA>
+        <choiceB>elected by region and appointed by the President</choiceB>
+        <choiceC>elected by district and party list</choiceC>
+        <choiceD>elected by district and appointed by the Senators</choiceD>
+        <answer>3</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>11</itemId>
+        <question>The legislative power of the government shall be vested in the</question>
+        <choiceA>President</choiceA>
+        <choiceB>Congress</choiceB>
+        <choiceC>Supreme Court</choiceC>
+        <choiceD>all of the above</choiceD>
+        <answer>2</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>12</itemId>
+        <question>Which of the following may disqualify a person from running for Presidency?</question>
+        <choiceA>He is sixty years old on the day of the election.</choiceA>
+        <choiceB>He lived abroad five years preceding the election.</choiceB>
+        <choiceC>He has Filipino parents but was born in the United States.</choiceC>
+        <choiceD>He is a registered voter.</choiceD>
+        <answer>2</answer>
+        <points>20</points>
+        <difficulty>7</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>13</itemId>
+        <question>Which of the following shows the transfer of power should the President be incapable of discharging his duties?</question>
+        <choiceA>President->Vice-President->Senate President->House Speaker</choiceA>
+        <choiceB>President->Vice-President->Chief Justice->Senate President</choiceB>
+        <choiceC>President->Vice-President->Chief Justice->House Speaker</choiceC>
+        <choiceD>President->Vice-President->House Speaker->Senate President</choiceD>
+        <answer>1</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>14</itemId>
+        <question>A member of the Supreme Court</question>
+        <choiceA>must have been for fifteen years or more, a judge of a lower court.</choiceA>
+        <choiceB>must have been for ten years, a judge of the Court of Appeals.</choiceB>
+        <choiceC>may not be a member of the Philippine Bar.</choiceC>
+        <choiceD>may be a naturalized citizen.</choiceD>
+        <answer>1</answer>
+        <points>20</points>
+        <difficulty>7</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>15</itemId>
+       <question>The Supreme Court is composed of</question>
+        <choiceA>a Chief Justice and fourteen Associate Justices.</choiceA>
+        <choiceB>two Chief justices and fourteen Associate Justices.</choiceB>
+        <choiceC>a Chief Justice and twelve Associate Justices.</choiceC>
+        <choiceD>a Chief Justice and an indefinite number of Associate Justices.</choiceD>
+        <answer>1</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>16</itemId>
+        <question>Which of the following is a Constitutional Commission?</question>
+        <choiceA>Commission of Human Rights</choiceA>
+        <choiceB>Philippine Commission on Good Government</choiceB>
+        <choiceC>Civil Service Commission</choiceC>
+        <choiceD>Commission on Natural Resources</choiceD>
+        <answer>3</answer>
+        <points>10</points>
+        <difficulty>6</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>17</itemId>
+        <question>What branch of government has the sole right to initiate all cases of impeachment?</question>
+        <choiceA>Senate</choiceA>
+        <choiceB>Commission of Election</choiceB>
+        <choiceC>house of Representative</choiceC>
+        <choiceD>Judiciary</choiceD>
+        <answer>3</answer>
+        <points>40</points>
+        <difficulty>9</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>18</itemId>
+        <question>Which of the following is not removable from office by impeachment?</question>
+        <choiceA>Member of the Supreme Court</choiceA>
+        <choiceB>Member of the Constitutional Commissiions</choiceB>
+        <choiceC>The Ombudsman</choiceC>
+        <choiceD>Senators</choiceD>
+        <answer>4</answer>
+        <points>40</points>
+        <difficulty>9</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>19</itemId>
+        <question>The national language of the Philippines is</question>
+        <choiceA>Pilipino</choiceA>
+        <choiceB>English and Filipino</choiceB>
+        <choiceC>Tagalog</choiceC>
+        <choiceD>Filipino</choiceD>
+        <answer>4</answer>
+        <points>10</points>
+        <difficulty>6</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>20</itemId>
+        <question>Who may propose any amendment to, or revision of the Constitution?</question>
+        <choiceA>Congress or a Constitutional Convention</choiceA>
+        <choiceB>Congress and a Constitutional Convention</choiceB>
+        <choiceC>Judiciary and Congress</choiceC>
+        <choiceD>Judiciary and Constituional Convention</choiceD>
+        <answer>1</answer>
+        <points>50</points>
+        <difficulty>10</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>21</itemId>
+        <question>What tax is paid by individuals who derive compensation income?</question>
+        <choiceA>Value added tax</choiceA>
+        <choiceB>Excise tax</choiceB>
+        <choiceC>Income tax</choiceC>
+        <choiceD>Real estate tax</choiceD>
+        <answer>3</answer>
+        <points>20</points>
+        <difficulty>7</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>22</itemId>
+        <question>When is the deadline for filing income tax returns for every taxable year?</question>
+        <choiceA>April 15</choiceA>
+        <choiceB>April 30</choiceB>
+        <choiceC>March 15</choiceC>
+        <choiceD>March 30</choiceD>
+        <answer>1</answer>
+        <points>20</points>
+        <difficulty>7</difficulty>
+        <category>Constitution</category>
+    </item>
+        <item>
+        <itemId>23</itemId>
+        <question>Which of the following statements is true about taxes?</question>
+        <choiceA>It is a voluntary payment.</choiceA>
+        <choiceB>It is payable both in cash and in kind.</choiceB>
+        <choiceC>It is an enforcd contribution.</choiceC>
+        <choiceD>It is based on one's desire to pay.</choiceD>
+        <answer>3</answer>
+        <points>10</points>
+        <difficulty>6</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>24</itemId>
+        <question>What tax is imposed on one's right to transmit property at death, and is measured by the value of the property?</question>
+        <choiceA>Excise tax</choiceA>
+        <choiceB>Withholding tax</choiceB>
+        <choiceC>Donor's tax</choiceC>
+        <choiceD>Estate tax</choiceD>
+        <answer>4</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>25</itemId>
+        <question>Which of the following is classified as being a "Head of the Family" for income tax purposes?</question>
+        <choiceA>a married individual with dependents</choiceA>
+        <choiceB>an unmarried individual with dependents</choiceB>
+        <choiceC>a married individual without dependents</choiceC>
+        <choiceD>an unmarried individual without dependents</choiceD>
+        <answer>2</answer>
+        <points>40</points>
+        <difficulty>9</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>26</itemId>
+        <question>What Act implements the mandate for the "State to make essential goods, health and other social services available to all the people at affordable cost?"</question>
+        <choiceA>Land Reform Program</choiceA>
+        <choiceB>Generics Act</choiceB>
+        <choiceC>Resettlement Act</choiceC>
+        <choiceD>Freedom Act</choiceD>
+        <answer>2</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>27</itemId>
+        <question>Which of the following is true about elective local officials?</question>
+        <choiceA>The term of office is three years.</choiceA>
+        <choiceB>Barangay officials' term of office is indefinite.</choiceB>
+        <choiceC>An official may be reelected indefinitely.</choiceC>
+        <choiceD>An official may not serve for less than three terms.</choiceD>
+        <answer>1</answer>
+        <points>40</points>
+        <difficulty>9</difficulty>
+        <category>Constitution</category>
+    </item>
+        <item>
+        <itemId>28</itemId>
+        <question>What may be classified as alienable lands of the public domain?</question>
+        <choiceA>forest</choiceA>
+        <choiceB>mineral lands</choiceB>
+        <choiceC>national park</choiceC>
+        <choiceD>agricultural lands</choiceD>
+        <answer>4</answer>
+        <points>10</points>
+        <difficulty>6</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>29</itemId>
+        <question>What is the maximum equity for aliens in a corporation or association in the exploration development and utilization of natural resources?</question>
+        <choiceA>60%</choiceA>
+        <choiceB>40%</choiceB>
+        <choiceC>50%</choiceC>
+        <choiceD>30%</choiceD>
+        <answer>2</answer>
+        <points>50</points>
+        <difficulty>10</difficulty>
+        <category>Constitution</category>
+    </item>
+    <item>
+        <itemId>30</itemId>
+        <question>What is recognized by the Sate as the foundation of the nation?</question>
+        <choiceA>barangay</choiceA>
+        <choiceB>community</choiceB>
+        <choiceC>family</choiceC>
+        <choiceD>municipality</choiceD>
+        <answer>3</answer>
+        <points>30</points>
+        <difficulty>8</difficulty>
+        <category>Constitution</category>
+    </item>
+  
+</questions>
