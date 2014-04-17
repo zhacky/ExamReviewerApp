@@ -10,8 +10,10 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		InitViews();
@@ -30,19 +32,22 @@ public class MainActivity extends Activity {
 				Intent intent;
 				switch (v.getId()) {
 				case R.id.btnStudy:
-					intent = new Intent(MainActivity.this, StudyActivity.class);
+					intent = new Intent(MainActivity.this, SearchableActivity.class);
 					intent.putExtra("Username", "Zhack");
 					startActivity(intent);
+		
 					break;
 				case R.id.btnQuiz:
 					intent = new Intent(MainActivity.this, QuizActivity.class);
 					intent.putExtra("Username", "Zhack");
 					startActivity(intent);
+			
 					break;
 				case R.id.btnHighScores:
 					intent = new Intent(MainActivity.this, HighScoresActivity.class);
 					intent.putExtra("Username", "Zhack");
 					startActivity(intent);
+			
 					break;
 				default:
 					break;
@@ -62,6 +67,7 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+		
 	}
 
 }

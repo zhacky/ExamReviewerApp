@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -156,4 +157,50 @@ public class UIHelper {
 		btn.setText(text);
 	}
 
+	/**
+	 * Enables or disables a button
+	 * @param activity - The parent Activity of the Button
+	 * @param id - The Resource Id of the Button
+	 * @param boolean - Boolean whether to enable or disable the button
+	 */
+	public static void enableButton(Activity activity, int id, boolean enabled){
+		Button btn = (Button) activity.findViewById(id);
+		btn.setEnabled(enabled);
+	}
+	
+	/**
+	 * Enables or disables an EditText View
+	 * @param activity - The parent Activity of the EditText View
+	 * @param id - The Resource Id of the EditText View
+	 * @param boolean - Boolean whether to enable or disable the EditText View
+	 */
+	public static void enableEditText(Activity activity, int id, boolean enabled){
+		EditText et = (EditText) activity.findViewById(id);
+		et.setEnabled(enabled);
+	}
+	
+	/** Shows or hides a button
+	 * @param activity - The parent Activity of the Button
+	 * @param id - The Resource Id of the Button
+	 * @param visibility - visibility (Button.VISIBLE / Button.INVISIBLE)
+	 */
+	public static void setButtonVisibility(Activity activity, int id, int visibility){
+		Button btn = (Button)activity.findViewById(id);
+		btn.setVisibility(visibility);
+	}
+	
+	/** Shows or hides an EditText
+	 * @param activity - The parent Activity of the EditText
+	 * @param id - The Resource Id of the EditText
+	 * @param visibility - visibility (EditText.VISIBLE / EditText.INVISIBLE)
+	 */	
+	public static void setEditTextVisibility(Activity activity, int id, int visibility){
+		EditText et = (EditText)activity.findViewById(id);
+		et.setVisibility(visibility);
+	}
+	
+	public static void setImage(Activity activity, int id, int image){
+		ImageView img = (ImageView)activity.findViewById(id);
+		img.setImageResource(image);
+	}
 }

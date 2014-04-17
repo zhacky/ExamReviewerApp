@@ -16,22 +16,17 @@
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:layout_alignBottom="@+id/rgChoices"
+        android:layout_above="@+id/btnConfirm"
         android:orientation="vertical" >
 
-        <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent" >
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="194dp"
+            android:layout_height="176dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/question"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <TextView
-                android:id="@+id/tvQuestion"
-                android:layout_width="194dp"
-                android:layout_height="176dp"
-                android:layout_marginLeft="16dp"
-                android:text="@string/question"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        </ScrollView>
     </LinearLayout>
 
     <RadioGroup
@@ -39,7 +34,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnConfirm"
-        android:layout_toRightOf="@+id/linearLayout1" >
+        android:layout_alignRight="@+id/btnConfirm"
+        android:layout_marginRight="88dp" >
 
         <RadioButton
             android:id="@+id/radio1"
@@ -65,7 +61,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/loading" />
-
     </RadioGroup>
 
 </RelativeLayout>

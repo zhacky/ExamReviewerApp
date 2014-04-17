@@ -1,19 +1,17 @@
 package com.zhacky.app.examreviewer;
 
 import java.util.List;
-import com.zhacky.app.examreviewer.data.AppXMLParser;
-import com.zhacky.app.examreviewer.model.Question;
-import com.zhacky.app.examreviewer.utils.UIHelper;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.OrientationEventListener;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
+import com.zhacky.app.examreviewer.data.AppXMLParser;
+import com.zhacky.app.examreviewer.model.Question;
+import com.zhacky.app.examreviewer.utils.UIHelper;
 
 public class QuizActivity extends Activity {
 	private final String LOGTAG = "QUIZAPP";
@@ -34,13 +32,9 @@ public class QuizActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quiz);
-		try {
-			InitViews();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+		InitViews();
+		//Toast.makeText(this, "Test10", Toast.LENGTH_LONG).show();
+			}
 
 	private void InitViews() {
 		AppXMLParser parser = new AppXMLParser();
@@ -113,6 +107,7 @@ public class QuizActivity extends Activity {
 						+ "\nCount: " + total_count, Toast.LENGTH_SHORT).show();
 		intent.putExtra("Fraction", fraction);
 		startActivity(intent);
+		this.finish();
 	}
 
 	/**
@@ -149,23 +144,6 @@ public class QuizActivity extends Activity {
 			}
 		}
 
-	}
-	
-	/**     ON Change layout     **/
-	OrientationEventListener orientation_listener = new OrientationEventListener(this) {
-		
-		@Override
-		public void onOrientationChanged(int orientation) {
-			
-			
-		}
-	};
-
-	@SuppressWarnings("unused")
-	private void displayUpdate() {
-		String update = "Score: " + userscore + "\nCorrect: " + total_correct
-				+ "/" + total_count;
-		Toast.makeText(this, update, Toast.LENGTH_LONG).show();
 	}
 
 	// --end coding--

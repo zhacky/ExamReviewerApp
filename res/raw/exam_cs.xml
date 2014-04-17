@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <questions>
-
     <item>
         <itemId>1</itemId>
         <question>What do you call the introductory part of the Constitution?</question>
@@ -364,5 +363,4 @@
         <difficulty>8</difficulty>
         <category>Constitution</category>
     </item>
-  
-</questions>
+  </questions>

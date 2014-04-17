@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lessons>
+    <item>
+        <itemId>1</itemId>
+        <title>Age Problems</title>
+        <desc>Example:
+James is twice as old as John. 
+Seven years ago the sum of their ages was 16. 
+How old is John now?
+
+Answer:
+10
+
+Solution:
+Let x be the John's age now.
+2x will be James's age now.
+(x - 7) is John's age seven years ago.
+(2x - 7) is James's age seven years ago.
+
+Thus the equation goes,
+
+(2x - 7) + (x - 7) = 16
+
+by simple math:
+3x -14 = 16
+3x = 30
+x = 10            
+        </desc>
+        <units>3</units>
+        <image>none</image>
+    </item>
+    <item>
+        <itemId>2</itemId>
+        <title>Percentage Problems</title>
+        <desc>"For percentage problems, make sure you always end up with
+the following equation:
+
+Starting value * percentage = Ending Value
+
+Similarly,
+
+Starting value = Ending Value / percentage
+
+And
+
+Percentage = Ending value / Starting value
+
+Example 1:
+Out of 500 who took the exam, only 85% passed.  How many
+students passed the exam?
+
+Starting value here is 500. Ending value is X (Unknown)
+
+Therefore,
+500 * 85% = 425 students
+
+Example 2:
+
+Matthew is left with 10,800 Pesos after 10% was taken from the original amount.
+How much was the original amount?
+
+Ending value here is 11,500 while the Starting value is X (unknown)
+However by analyzing the question, you'll see that the ending value is 90%
+of the starting value.
+
+Therefore,
+
+X = 10,800 / 90%
+
+X = 12,000 Pesos
+
+
+Example 3:
+
+An 8oz coke bottle contains how much amount (in percent) 
+from a 12oz coke bottle.
+
+From the statement above, the 8oz bottle is being compared
+to a 12oz and the percentage is being asked.
+Therefore,
+Starting value is 12oz
+Ending value is 8oz
+
+The equation would be:   
+
+Percentage = 8oz/12oz
+Percentage = 0.67%
+
+
+"
+            
+        </desc>
+        <units>3</units>
+        <image>none</image>
+    </item>
+      <item>
+        <itemId></itemId>
+        <title></title>
+        <desc></desc>
+        <units></units>
+        <image></image>
+    </item>
+      <item>
+        <itemId></itemId>
+        <title></title>
+        <desc></desc>
+        <units></units>
+        <image></image>
+    </item>
+      <item>
+        <itemId></itemId>
+        <title></title>
+        <desc></desc>
+        <units></units>
+        <image></image>
+    </item>
+      <item>
+        <itemId></itemId>
+        <title></title>
+        <desc></desc>
+        <units></units>
+        <image></image>
+    </item>
+      <item>
+        <itemId></itemId>
+        <title></title>
+        <desc></desc>
+        <units></units>
+        <image></image>
+    </item>
+      <item>
+        <itemId></itemId>
+        <title></title>
+        <desc></desc>
+        <units></units>
+        <image></image>
+    </item>
+</lessons>

@@ -4,24 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Medium Text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:contentDescription="@string/content_description_image"
+        android:src="@android:drawable/ic_menu_help" />
 
     <TextView
-        android:id="@+id/tvCorrectAnswers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Medium Text"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <ViewAnimator
-        android:id="@+id/viewAnimator1"
+        android:id="@+id/tvItemDesc"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-    </ViewAnimator>
+        android:layout_height="match_parent"
+        android:text="@string/loading"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </LinearLayout>
