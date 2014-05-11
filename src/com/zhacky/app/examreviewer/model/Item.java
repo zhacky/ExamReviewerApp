@@ -17,6 +17,7 @@ public class Item implements Parcelable {
 	
 	public Item(){
 	image="none";
+	
 	}
 	public long getId() {
 		return id;

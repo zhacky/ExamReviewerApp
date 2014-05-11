@@ -14,6 +14,7 @@ public class AppDBOpenHelper extends SQLiteOpenHelper {
 	
 	public static final String TABLE_APP = "app";
 	public static final String COLUMN_ID = "itemId";
+	public static final String COLUMN_CODE = "itemCode";
 	public static final String COLUMN_TITLE = "title";
 	public static final String COLUMN_DESC = "description";
 	public static final String COLUMN_UNITS = "units";
@@ -22,10 +23,11 @@ public class AppDBOpenHelper extends SQLiteOpenHelper {
 	private static final String TABLE_CREATE = 
 			"CREATE TABLE " + TABLE_APP + " (" +
 			COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+			COLUMN_CODE + " INTEGER, " +
 			COLUMN_TITLE + " TEXT, " +
 			COLUMN_DESC + " TEXT, " +
-			COLUMN_IMAGE + " TEXT, " +
-			COLUMN_UNITS + " NUMERIC " +
+			COLUMN_UNITS + " NUMERIC, " +
+			COLUMN_IMAGE + " TEXT " +
 			")";
 			
 	

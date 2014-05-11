@@ -4,21 +4,6 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"/>
-    <item android:id="@+id/list_all" android:orderInCategory="100" android:title="@string/all"></item><item
-        android:id="@+id/list_general"
-        android:orderInCategory="100"
-        android:title="@string/general">
-    </item>
-    <item
-        android:id="@+id/list_english"
-        android:orderInCategory="100"
-        android:title="@string/english">
-    </item>
-    <item
-        android:id="@+id/list_math"
-        android:orderInCategory="100"
-        android:title="@string/math">
-    </item>
     
 
 </menu>

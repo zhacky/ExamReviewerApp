@@ -2,6 +2,7 @@ package com.zhacky.app.examreviewer.utils;
 
 
 import android.app.Activity;
+import android.view.View.OnTouchListener;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -199,8 +200,20 @@ public class UIHelper {
 		et.setVisibility(visibility);
 	}
 	
+	/** Sets an image source to an ImageView
+	 * 
+	 * @param activity - The parent Activity of the ImageView
+	 * @param id - The Resource Id of the ImageView
+	 * @param image -The Resource Id of the image
+	 */
 	public static void setImage(Activity activity, int id, int image){
 		ImageView img = (ImageView)activity.findViewById(id);
 		img.setImageResource(image);
 	}
+	
+	public static void setTouchListener(Activity activity, int id, OnTouchListener touchListener){
+		TextView tv = (TextView) activity.findViewById(id);
+		tv.setOnTouchListener(touchListener);
+	}
+	// ------   end code -----------
 }

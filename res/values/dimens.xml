@@ -4,5 +4,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="radio_text_size">10sp</dimen>
+    <dimen name="vertical_26dp">1126dp</dimen>
 
 </resources>

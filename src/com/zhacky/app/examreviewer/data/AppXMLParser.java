@@ -41,7 +41,7 @@ private static final String LOGTAG = "QUIZAPP";
 			factory.setNamespaceAware(true);
 			XmlPullParser xpp = factory.newPullParser();
 			
-			InputStream stream = context.getResources().openRawResource(R.raw.exam_reb);
+			InputStream stream = context.getResources().openRawResource(R.raw.exam_cs);
 			xpp.setInput(stream, null);
 
 			int eventType = xpp.getEventType();
